@@ -16,6 +16,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@csstools/postcss-global-data": "^3.0.0",
     "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -25,7 +26,12 @@
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.0.11",
     "lint-staged": "^15",
+    "postcss-custom-media": "^11.0.3",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-mixins": "^11.0.3",
     "postcss-nesting": "^12.1.5",
+    "postcss-preset-env": "^10.0.7",
+    "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.2.5",
     "typescript": "^5",
     "typescript-eslint": "^7.10.0"
