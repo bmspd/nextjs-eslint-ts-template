@@ -5,7 +5,7 @@ import Logo from '/public/icons/logo.svg'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Image className={styles.animation} src={animationSrc} alt="Main animation" />
+      <Image className={styles.animation} src={animationSrc} alt="Main animation" unoptimized />
       <h1 className={styles.text}>Template for Next.js</h1>
       <Logo width="300" height="auto" />
     </main>
